@@ -1,0 +1,88 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;
+    margin: 50px;
+    background: radial-gradient(rgb(226, 171, 88), rgb(236, 102, 102));
+    color: black;
+    
+}
+
+#calculator {
+    max-width: 300px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color:rgb(137, 197, 229) ;
+    
+}
+
+input{
+    width: 88%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: aliceblue;
+    color: rgb(57, 52, 52);
+    text-align: right;
+}
+button {
+    width: 20%;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(210, 243, 76);
+    color: rgb(50, 125, 39);
+    transition: background-color 0.3s ease;
+
+}
+.operations{
+    background-color: chocolate;
+    color: aqua;
+}
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(119, 24, 89);
+}
+#clear {
+    width: 65%;
+}
+#equals {
+    width: 65%;
+}
+.bigBar{
+    background-color: rgb(247, 205, 117);
+}
+
+#btnV2 {
+    margin-top: 40px;
+}
+
+
+#btnV2 a {
+    text-decoration: none;
+    
+}
+
+#btnV2 button {
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: blueviolet;
+    transition: background-color 0.3s ease;
+}
+
+#btnV2 button:hover {
+    background: radial-gradient(rgb(221, 152, 23), rgb(57, 53, 53));
+    color: antiquewhite;
+}

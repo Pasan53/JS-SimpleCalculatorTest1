@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Calculator with JS</title>
+</head>
+<body>
+    <h1>Calculator using JavaScript</h1>
+
+    <div id="calculator">
+        <input type="text" id="display" placeholder="0" disabled>
+        <br>
+        <button id="clear" class="bigBar" onclick="clearDisplay()">C</button>
+        <button class="operations" onclick="appendToDisplay('/')">/</button>
+        <br>
+        <button class="numbers" onclick="appendToDisplay('7')">7</button>
+        <button class="numbers" onclick="appendToDisplay('8')">8</button>
+        <button class="numbers" onclick="appendToDisplay('9')">9</button>
+        <button class="operations" onclick="appendToDisplay('*')">x</button>
+        <br>
+        <button class="numbers" onclick="appendToDisplay('4')">4</button>
+        <button class="numbers" onclick="appendToDisplay('5')">5</button>
+        <button class="numbers" onclick="appendToDisplay('6')">6</button>
+        <button class="operations" onclick="appendToDisplay('-')">-</button>
+        <br>
+        <button class="numbers" onclick="appendToDisplay('1')">1</button>
+        <button class="numbers" onclick="appendToDisplay('2')">2</button>
+        <button class="numbers" onclick="appendToDisplay('3')">3</button>
+        <button class="operations" onclick="appendToDisplay('+')">+</button>
+        <br>
+        <button class="numbers" onclick="appendToDisplay('0')">0</button>
+        <button id="equals" class="bigBar" onclick="calculateResults()">=</button>
+        
+        
+    </div>
+    <div id="btnV2">
+        <a href="html/testCal.html"><button>Try another Version</button></a>
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
